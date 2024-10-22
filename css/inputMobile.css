@@ -472,9 +472,9 @@ opacity: 1 !important;
   border: none;
   background: none;
   padding-bottom: 15px;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
-  line-height: 25.04px;
+  line-height: 21.91px;
   appearance: none;
   color: #6E6E6E;
   font-family: 'IRANSansWeb400';
@@ -485,9 +485,9 @@ opacity: 1 !important;
   outline: none;
 }
 .inputBOX input::placeholder{
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
-  line-height: 25.04px;
+  line-height: 21.91px;
   appearance: none;
   color: #6E6E6E;
   font-family: 'IRANSansWeb400';
