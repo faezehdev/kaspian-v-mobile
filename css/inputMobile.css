@@ -229,38 +229,30 @@ stroke: #252525;
 header.dark svg path{
     stroke: #252525;
 }
-.ProductCat-C .swiper-slide{
-    width: auto !important;
-}
-.ProductCat-C .swiper-slide.pro{
-    height: 80%;
-    margin: auto 0;
-}
-.ProductCat-C .swiper-slide.pro:last-child .Wrapp{
-    border-left: 1px solid #6E6E6E;
-}
-.ProductCat-C .swiper-slide .Title h2{
+
+
+.ProductCat-Mobile .swiper-slide .Title h2{
     transition: all 1s ease;
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -ms-transition: all 1s ease;
     -o-transition: all 1s ease;
 }
-.ProductCat-C .swiper-slide .Text p{
+.ProductCat-Mobile .swiper-slide .Text p{
     transition: all 1s ease;
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -ms-transition: all 1s ease;
     -o-transition: all 1s ease;
 }
-.ProductCat-C .swiper-slide.inner-visible .Title h2{
+.ProductCat-Mobile .swiper-slide.inner-visible .Title h2{
     transform: translateY(0);
     -webkit-transform: translateY(0);
     -moz-transform: translateY(0);
     -ms-transform: translateY(0);
     -o-transform: translateY(0);
 }
-.ProductCat-C .swiper-slide.inner-visible .Text p{
+.ProductCat-Mobile .swiper-slide.inner-visible .Text p{
     transform: translateY(0);
     -webkit-transform: translateY(0);
     -moz-transform: translateY(0);
