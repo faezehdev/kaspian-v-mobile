@@ -701,6 +701,10 @@ video {
   isolation: auto;
 }
 
+.z-0 {
+  z-index: 0;
+}
+
 .z-1 {
   z-index: 1;
 }
@@ -765,6 +769,10 @@ video {
   clear: none;
 }
 
+.m-\[7em\] {
+  margin: 7em;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -775,14 +783,19 @@ video {
   margin-bottom: .5em;
 }
 
+.my-\[2em\] {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
 .my-\[3\.5em\] {
   margin-top: 3.5em;
   margin-bottom: 3.5em;
 }
 
-.my-\[2em\] {
-  margin-top: 2em;
-  margin-bottom: 2em;
+.mx-\[15\%\] {
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .mb-\[2em\] {
@@ -795,6 +808,10 @@ video {
 
 .ml-\[5\%\] {
   margin-left: 5%;
+}
+
+.mr-\[15\%\] {
+  margin-right: 15%;
 }
 
 .mr-\[5\%\] {
@@ -829,6 +846,10 @@ video {
   margin-top: 19em;
 }
 
+.mt-\[1em\] {
+  margin-top: 1em;
+}
+
 .mt-\[2\.5em\] {
   margin-top: 2.5em;
 }
@@ -847,6 +868,14 @@ video {
 
 .mt-\[8em\] {
   margin-top: 8em;
+}
+
+.mb-\[7em\] {
+  margin-bottom: 7em;
+}
+
+.mb-\[5em\] {
+  margin-bottom: 5em;
 }
 
 .box-border {
@@ -2549,6 +2578,10 @@ video {
   line-height: 31px;
 }
 
+.leading-31\.03 {
+  line-height: 31.03px;
+}
+
 .leading-34\.43 {
   line-height: 34.43px;
 }
@@ -3464,10 +3497,6 @@ header.dark svg path{
 
 header .label-up{
   margin: 0;
-}
-
-.Error-container img{
-  transform: scale(1.12) translate(5%,3%);
 }
 
 .c02256 {
