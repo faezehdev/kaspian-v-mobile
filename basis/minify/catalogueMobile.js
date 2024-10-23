@@ -1,0 +1,1 @@
+const lenis=new Lenis;function raf(e){lenis.raf(e),requestAnimationFrame(raf)}requestAnimationFrame(raf);let header=document.querySelector("header");header.classList.add("light");

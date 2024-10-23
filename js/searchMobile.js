@@ -55,7 +55,7 @@ searchIconn.addEventListener('click',()=>{
      }
    else{
     console.log('val',inputt.value);
-    var url = `/load.inc?q=${inputt.value}`;
+    var url = `/load-mobile.inc?q=${inputt.value}`;
     $(".loaded").load(url);}
 })
 inputt.addEventListener("keypress", function(event) {
@@ -65,7 +65,7 @@ inputt.addEventListener("keypress", function(event) {
     if(inputt.value != ''){
       event.preventDefault();
       console.log('val',inputt.value);
-      var url = `/load.inc?q=${inputt.value}`;
+      var url = `/load-mobile.inc?q=${inputt.value}`;
       $(".loaded").load(url);}
 
     }

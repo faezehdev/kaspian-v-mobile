@@ -490,3 +490,11 @@ opacity: 1 !important;
   color: #6E6E6E;
   font-family: 'IRANSansWeb400';
 }
+
+header .clr ul .Menu-Item:not(:first-child){
+border-bottom: 1px solid #F8F8F8;
+}
+header .clr ul .full{
+border-top: 1px solid #F8F8F8;
+border-bottom: 1px solid #F8F8F8;
+}

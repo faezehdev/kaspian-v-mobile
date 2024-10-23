@@ -1,0 +1,83 @@
+<basis core="dbsource" source="basiscore" name="db" lid="1" mid="20" >
+    <member request="cat" type="tree" name="productCat1" parentid="210503" preview="true" /> 
+</basis>
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>محصولات</title>
+    <meta name="description" content="محصولات">
+    <link rel="stylesheet" href="[##cms.cms.cdn##]/css/swiper.css">
+    <link rel="stylesheet" href="[##cms.cms.cdn##]/css/outputMobile.css">
+</head>
+<body class="bg-White1">
+    <main class="ProductCat-Mobile flex flex-col overflow-hidden w-full " dir="rtl">
+        <basis core="call" file="header.inc" pageindex="[##cms.cms.pageindex##]" />
+    <section class="Section-1 w-full flex justify-start items-start mt-[4em]"> 
+        <div class="BannerSec w-full flex-col flex justify-start items-start">
+            <div class="IMG w-[75%] relative mr-auto">
+                <img src="[##cms.cms.cdn##]/images/productCat.jpg" alt="محصولات" title="محصولات" class="w-full h-full object-cover">
+            </div>
+          <span class="Pro-BTN overflow-hidden translate-y-[-50%] translate-x-[-50%] w-[160px] h-[160px] hover:cursor-pointer bg-darkgray rounded-full
+          flex flex-col justify-center items-center gap-3">
+            <span class="text font-IRANSansWeb400 translate-y-[300px] duration-[.3s]
+             font-normal text-xs leading-18.78 text-White text-center">
+                دسته‌بندی محصولات
+            </span>
+            <span class="icon translate-y-[300px] duration-[.3s] w-auto flex justify-center items-center">
+                <svg width="14" height="26" viewBox="0 0 14 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7 23.5L7 1M1 19L7 25L13 19" stroke="#F8F8F8" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                              
+            </span>
+          </span>
+          </div>
+    </section>
+    <section class="Section-2 mb-[4em] w-full flex justify-start items-start">
+        <div class="proCats w-[85%] gap-[3em] mx-auto flex flex-col">
+            <basis core="print" datamembername="db.productCat1">
+                <layout>
+                    @child
+                </layout>
+                <face filter="parentid=210503">
+                    <div class="Pro-Cat w-full flex flex-col justify-start items-start">
+                        <div class="Top w-full flex justify-start flex-col items-start gap-2">
+                            <div class="Title w-full flex justify-start items-start overflow-hidden">
+                                <a  href="@link" alt="@title" title="@title" class="w-auto flex justify-start items-start">
+                                <h2 class="font-IRANSansWeb500 translate-y-[100%] 
+                                group-[&.inner-visible]/product:translate-y-[0] duration-[1s]
+                                 font-medium text-sm leading-21.91 text-black1">
+                                 @title
+                                </h2></a>
+                            </div>
+                            <div class="Text  w-full flex justify-start items-start flex-col overflow-hidden">
+                                <p class="font-IRANSansWeb400 font-normal text-xs translate-y-[100%] duration-[1s]
+                                 leading-18.78 text-black1 group-[&.inner-visible]/product:translate-y-[0]">
+                                 @urldescription
+                                </p>
+                            </div>
+                        </div>
+                        <div class="Bottom mt-[2.5em] w-full flex justify-center items-center">
+                            <div class="IMG w-full flex justify-center items-center overflow-hidden">
+                                <a href="@link"  alt="@title"  title="@title" 
+                                 class="w-full flex justify-center items-center">
+                                <img src="@image" alt="@title"  title="@title"
+                                class="w-full group-[&.inner-visible]/product:scale-[1]
+                                object-cover scale-[1.4] duration-[1s]"></a>
+                            </div>
+                        </div>
+                       </div>  
+                </face>
+            </basis>
+          
+    
+               
+        </div>
+    </section>
+    <basis core="call" file="footer.inc" pageindex="[##cms.cms.pageindex##]" />
+    </main>
+    <basis core="call" file="mobile-script.inc" />
+    <script src="[##cms.cms.cdn##]/js/productCatMobile.js"></script>
+</body>
+</html>

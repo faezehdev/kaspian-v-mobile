@@ -769,10 +769,6 @@ video {
   clear: none;
 }
 
-.m-\[7em\] {
-  margin: 7em;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -793,11 +789,6 @@ video {
   margin-bottom: 3.5em;
 }
 
-.mx-\[15\%\] {
-  margin-left: 15%;
-  margin-right: 15%;
-}
-
 .mb-\[2em\] {
   margin-bottom: 2em;
 }
@@ -806,12 +797,12 @@ video {
   margin-bottom: 4em;
 }
 
-.ml-\[5\%\] {
-  margin-left: 5%;
+.mb-\[5em\] {
+  margin-bottom: 5em;
 }
 
-.mr-\[15\%\] {
-  margin-right: 15%;
+.ml-\[5\%\] {
+  margin-left: 5%;
 }
 
 .mr-\[5\%\] {
@@ -868,14 +859,6 @@ video {
 
 .mt-\[8em\] {
   margin-top: 8em;
-}
-
-.mb-\[7em\] {
-  margin-bottom: 7em;
-}
-
-.mb-\[5em\] {
-  margin-bottom: 5em;
 }
 
 .box-border {
@@ -2578,10 +2561,6 @@ video {
   line-height: 31px;
 }
 
-.leading-31\.03 {
-  line-height: 31.03px;
-}
-
 .leading-34\.43 {
   line-height: 34.43px;
 }
@@ -3612,6 +3591,15 @@ header .label-up{
           appearance: none;
   color: #6E6E6E;
   font-family: 'IRANSansWeb400';
+}
+
+header .clr ul .Menu-Item:not(:first-child){
+  border-bottom: 1px solid #F8F8F8;
+}
+
+header .clr ul .full{
+  border-top: 1px solid #F8F8F8;
+  border-bottom: 1px solid #F8F8F8;
 }
 
 @media (min-width: 480px) {
