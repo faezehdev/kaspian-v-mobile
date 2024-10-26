@@ -837,6 +837,11 @@ video {
   margin-bottom: 3.5em;
 }
 
+.my-\[1em\] {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
 .mb-1 {
   margin-bottom: 0.25rem;
 }
@@ -1200,6 +1205,14 @@ video {
 
 .w-svw {
   width: 100svw;
+}
+
+.w-\[85\] {
+  width: 85;
+}
+
+.w-85p {
+  width: 85%;
 }
 
 .max-w-\[600px\] {
