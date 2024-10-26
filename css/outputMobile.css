@@ -3171,8 +3171,17 @@ body.ProductCat-C{
   -o-transform: translateX(100%);
 }
 
-.MobileHeader.light svg path{
+.MobileHeader.light .Header-Inner svg path{
   stroke: #252525;
+}
+
+.MobileHeader .Menu ul{
+  overflow-y: auto !important;
+}
+
+.clr {
+  height: 85svh;
+  margin-top: auto;
 }
 
 ::-webkit-scrollbar-track ,

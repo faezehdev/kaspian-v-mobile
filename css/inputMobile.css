@@ -119,8 +119,15 @@
     -ms-transform: translateX(100%);
     -o-transform: translateX(100%);
 }
-.MobileHeader.light svg path{
+.MobileHeader.light .Header-Inner svg path{
 stroke: #252525;
+}
+.MobileHeader .Menu ul{
+  overflow-y: auto !important;
+}
+.MobileHeader .clr {
+  height: 85svh;
+  margin-top: auto;
 }
 ::-webkit-scrollbar-track ,
 #scrollContainer::-webkit-scrollbar-track{
