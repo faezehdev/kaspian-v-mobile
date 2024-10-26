@@ -792,3 +792,42 @@ display: block!important;
   overflow: hidden;
   position: relative;
 }
+
+.aboutUs .history li:last-child .para::before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 100%;
+  background-color: #252525;
+  right: -8px;
+  top: 3px;
+  z-index: 1;
+}
+
+
+.gallery-pagination .swiper-pagination-bullet::after {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  position: absolute;
+  background-color: #6e6e6e;
+  transform: scale(0);
+  transition: 0.5s;
+}
+.gallery-pagination .swiper-pagination-bullet {
+  transition: 0.5s;
+  width: 14px;
+  height: 14px;
+  background-color: transparent;
+  opacity: 1;
+  border: 1px solid #f8f8f8;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.gallery-pagination .swiper-pagination-bullet-active::after {
+  transform: scale(1);
+}
