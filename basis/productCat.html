@@ -1,5 +1,5 @@
 <basis core="dbsource" source="basiscore" name="db" lid="1" mid="20" >
-    <member request="cat" type="tree" name="productCat1" parentid="210503" preview="true" /> 
+    <member request="cat" type="tree" name="productCat1" parentid="210503"  /> 
 </basis>
 <!DOCTYPE html>
 <html lang="fa">
@@ -10,6 +10,11 @@
     <meta name="description" content="محصولات">
     <link rel="stylesheet" href="[##cms.cms.cdn##]/css/swiper.css">
     <link rel="stylesheet" href="[##cms.cms.cdn##]/css/outputMobile.css">
+    <style>
+        .Pro-Cat .Bottom{
+            margin-top: 1em;
+        }
+    </style>
 </head>
 <body class="bg-White1">
     <main class="ProductCat-Mobile flex flex-col overflow-hidden w-full " dir="rtl">
@@ -19,7 +24,7 @@
             <div class="IMG w-[75%] relative mr-auto">
                 <img src="[##cms.cms.cdn##]/images/productCat.jpg" alt="محصولات" title="محصولات" class="w-full h-full object-cover">
             </div>
-          <span class="Pro-BTN overflow-hidden translate-y-[-50%] translate-x-[-50%] w-[160px] h-[160px] hover:cursor-pointer bg-darkgray rounded-full
+          <span class="Pro-BTN overflow-hidden translate-y-[-50%] translate-x-[-9%] w-[160px] h-[160px] hover:cursor-pointer bg-darkgray rounded-full
           flex flex-col justify-center items-center gap-3">
             <span class="text font-IRANSansWeb400 translate-y-[300px] duration-[.3s]
              font-normal text-xs leading-18.78 text-White text-center">
@@ -58,7 +63,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="Bottom mt-[2.5em] w-full flex justify-center items-center">
+                        <div class="Bottom w-full flex justify-center items-center">
                             <div class="IMG w-full flex justify-center items-center overflow-hidden">
                                 <a href="@link"  alt="@title"  title="@title" 
                                  class="w-full flex justify-center items-center">
@@ -78,6 +83,7 @@
     <basis core="call" file="footer.inc" pageindex="[##cms.cms.pageindex##]" />
     </main>
     <basis core="call" file="mobile-script.inc" />
+    <script src="[##cms.cms.cdn##]/js/headerDark.js"></script>
     <script src="[##cms.cms.cdn##]/js/productCatMobile.js"></script>
 </body>
 </html>
